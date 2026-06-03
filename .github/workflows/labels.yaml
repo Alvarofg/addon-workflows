@@ -21,7 +21,7 @@ jobs:
       - name: ⤵️ Download latest labels definitions
         run: |
           curl -s --retry 5 \
-            "https://raw.githubusercontent.com/mdegat01/addon-workflows/main/.github/labels.yml" \
+            "https://raw.githubusercontent.com/Alvarofg/addon-workflows/main/.github/labels.yml" \
             > labels.yml
       - name: 🚀 Run Label Syncer
         uses: micnncim/action-label-syncer@v1.3.0
